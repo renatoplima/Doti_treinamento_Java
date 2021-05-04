@@ -1,0 +1,28 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		
+		String Nome = JOptionPane.showInputDialog("Nome").toUpperCase();
+		short diarias = Short.parseShort(JOptionPane.showInputDialog("Quantidade de Diárias"));
+		double valor_diaria = "80.00";
+		double total_diarias = valor_diaria * diarias;
+		if (diarias > 15) {
+			double total_conta = (diarias * 5,50) + total_diarias; 
+			System.out.println("Total da conta: R$"+ total_conta);	
+		}
+		else if (diarias == 15) {
+			double total_conta = (diarias * 6) + total_diarias;
+			System.out.println("Total da conta: R$"+ total_conta);	
+		}
+		else {
+			double total_conta = (diarias * 8) + total_diarias;
+			System.out.println("Total da conta: R$"+ total_conta);	
+		}
+		
+	}
+	
+}

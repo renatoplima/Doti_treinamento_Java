@@ -1,0 +1,32 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DesafioDecisaoSimples {
+
+	public static void main(String[] args) {
+		
+		
+		String nome = JOptionPane.showInputDialog("Digite seu nome");
+		float idade = Float.parseFloat(JOptionPane.showInputDialog("Digite sua idade"));
+		
+		if(idade > 17 && idade < 70) {
+			// Somente vai ser executado se a condição for verdadeira
+			System.out.println(nome + ", Você deve votar obrigatoriamente");			
+		}
+		if (idade > 0 && idade < 16){
+			System.out.println(nome + ", Você não pode votar ainda");	
+		}
+		if ((idade >= 16 && idade <= 17) || idade >= 70 ) {
+			System.out.println(nome + ", seu voto é facultativo");
+		}
+			
+		/*
+		 * Pedir: nome e idade
+		 * De acordo com as regras para votação no brasil oriente o usuário se ele pode votar,
+		 * se ele não pode votar ou se o voto dele é facultativo.
+		 * 
+		 */
+	}
+	
+}

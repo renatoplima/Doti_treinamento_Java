@@ -1,0 +1,22 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio1_professor {
+
+	public static void main(String[] args) {
+		
+		String nome2 = JOptionPane.showInputDialog("Nome").toUpperCase();
+		short diarias2 = Short.parseShort(JOptionPane.showInputDialog("Quantidade de Diárias"));
+		double valor_diaria2 = 80;
+		float imposto2 = (float)5.5;
+		if (diarias2 == 15) {
+			imposto2 = 6;
+		}
+		else if (diarias2 < 15) {
+			imposto2 = 8;
+		}
+		System.out.println("Total: " + ((valor_diaria2 + imposto2) * diarias2));
+	}
+	
+}

@@ -1,0 +1,47 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio2_professor {
+
+	public static void main(String[] args) {
+
+		short valor1 = Short.parseShort(JOptionPane.showInputDialog("1º Valor"));
+		short valor2 = Short.parseShort(JOptionPane.showInputDialog("2º Valor"));
+		String operacao = JOptionPane.showInputDialog("Operação Aritmética");
+		if (operacao.equals("+")) {
+			double resultado = valor1 + valor2;
+			System.out.println("Resultado: "+ resultado);
+		}else if (operacao.equals("-")) {
+			double resultado = valor1 - valor2;
+			System.out.println("Resultado: "+ resultado);
+		}else if (operacao.equals("*")) {
+			double resultado = valor1 * valor2;
+			System.out.println("Resultado: "+ resultado);
+		}else if (operacao.equals("/")) {
+			double resultado = valor1 / valor2;
+			System.out.println("Resultado: "+ resultado);
+		}else {
+			System.out.println("Operador Aritimético utilizado esta incorreto");
+		}
+		
+		// Resultado Professor
+		short valor11 = Short.parseShort(JOptionPane.showInputDialog("1º Valor"));
+		short valor22 = Short.parseShort(JOptionPane.showInputDialog("2º Valor"));
+		String operacao2 = JOptionPane.showInputDialog("Operação Aritmética");
+		int resultado = 0;
+		if (operacao2.equals("+")) {
+			resultado = valor1 + valor2;
+		}else if (operacao.equals("-")) {
+			resultado = valor1 - valor2;
+		}else if (operacao.equals("*")) {
+			resultado = valor1 * valor2;
+		}else if (operacao.equals("/")) {
+			resultado = valor1 / valor2;
+		}else {
+			System.out.println("Operador Aritimético utilizado esta incorreto");
+		}
+		System.out.println("Resultado: " + resultado);
+	}
+
+}

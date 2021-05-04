@@ -1,0 +1,27 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+	
+	public static void main(String[] args) {
+		
+		String materia = JOptionPane.showInputDialog("Matéria");
+		String primeira_nota = JOptionPane.showInputDialog("Digite a 1ª nota");
+		String segunda_nota = JOptionPane.showInputDialog("Digite a 2ª nota");
+		double media = ((primeira_nota + segunda_nota) / 2);
+		System.out.println("Media: "+ media);
+		
+		/*
+		 * Capturem:
+		 * - nome da diciplina
+		 * - primeira nota
+		 * - segunda nota
+		 * - calcular a média
+		 * - exibir a média
+		 * 
+		 */
+		
+	}
+
+}

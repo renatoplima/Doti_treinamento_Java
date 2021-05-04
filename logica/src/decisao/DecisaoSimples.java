@@ -1,0 +1,42 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimples {
+	
+	public static void main(String[] args) {
+		
+		String diciplina = JOptionPane.showInputDialog("Disciplina").toUpperCase();
+		float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a 1ª nota"));
+		float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a 2ª nota"));
+		double media = (nota1 + nota2) / 2;
+		
+		// && => and
+		// || => or
+		
+		if(media >=6 && media < 10) {
+			// Somente vai ser executado se a condição for verdadeira
+			System.out.println("Você foi aprovado na Disciplina em "+ diciplina);			
+		}
+		if (media >= 4 && media < 6){
+			System.out.println("Você tem chance no exame de "+ diciplina);	
+		}
+		if (media < 4) {
+			System.out.println("Você foi Reprovado em "+ diciplina);
+		}
+		
+		System.out.println("Sua Media foi: "+ media);
+		
+		/*
+		 * Capturem:
+		 * - nome da diciplina
+		 * - primeira nota
+		 * - segunda nota
+		 * - calcular a média
+		 * - exibir a média
+		 * 
+		 */
+		
+	}
+
+}

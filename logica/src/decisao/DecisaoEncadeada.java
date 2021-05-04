@@ -1,0 +1,41 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoEncadeada {
+
+	public static void main(String[] args) {
+
+		String diciplina = JOptionPane.showInputDialog("Disciplina").toUpperCase();
+		short faltas = Short.parseShort(JOptionPane.showInputDialog("Faltas"));
+
+		if (faltas <= 20) {
+			float nota1 = Float.parseFloat(JOptionPane.showInputDialog("Digite a 1ª nota"));
+			float nota2 = Float.parseFloat(JOptionPane.showInputDialog("Digite a 2ª nota"));
+			double media = (nota1 + nota2) / 2;
+
+			// && => and
+			// || => or
+
+			if(media >=6 && media < 10) {
+				System.out.println("Você foi aprovado na Disciplina em "+ diciplina);			
+			}
+			else if (media >= 4 && media < 6){
+				System.out.println("Você esta de exame em "+ diciplina);	
+			}
+			else {
+				System.out.println("Você foi Reprovado em "+ diciplina);
+			}
+
+			System.out.println("Sua Media foi: "+ media);
+		}
+		else {
+			System.out.println("Você foi Reprovado em "+ diciplina + " Por FALTAS");
+		}
+		/*
+		 * Capturem: "nome da diciplina", "primeira nota" e "segunda nota".
+		 * - calcular a média e exibir a média.
+		 */
+	}
+
+}

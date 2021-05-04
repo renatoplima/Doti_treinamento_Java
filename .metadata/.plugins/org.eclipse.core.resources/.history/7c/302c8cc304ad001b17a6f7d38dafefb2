@@ -1,0 +1,53 @@
+package decisao;
+
+import java.util.Arrays;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio3 {
+	
+	public static void main(String[] args) {
+		short valor1 = Short.parseShort(JOptionPane.showInputDialog("1º Valor"));
+		short valor2 = Short.parseShort(JOptionPane.showInputDialog("2º Valor"));
+		short valor3 = Short.parseShort(JOptionPane.showInputDialog("3º Valor"));
+		if ((valor1 > valor2) && (valor1 > valor3)) {
+			System.out.println(valor1);
+			if (valor2 > valor3) {
+				System.out.println(valor2);
+			}else {
+				System.out.println(valor3);
+			}
+		}else if ((valor2 > valor1) && (valor2 > valor3)) {
+			System.out.println(valor2);
+			if (valor1 > valor3) {
+				System.out.println(valor1);
+			}else {
+				System.out.println(valor3);
+				System.out.println(valor1);
+			}
+		}else if ((valor3 > valor1) && (valor3 > valor2)) {
+			System.out.println(valor3);
+			if (valor1 > valor2) {
+				System.out.println(valor1);
+			}else {
+				System.out.println(valor2);
+				System.out.println(valor1);
+			}
+		}
+		
+		
+		
+/*		if ((valor1 == valor2) || (valor1 == valor3) || (valor2 == valor3)) {
+*			System.out.println("valores iguais, por favor digite valores diferentes");
+*			short valor11 = Short.parseShort(JOptionPane.showInputDialog("1º Valor"));
+*			short valor22 = Short.parseShort(JOptionPane.showInputDialog("2º Valor"));
+*			short valor33 = Short.parseShort(JOptionPane.showInputDialog("3º Valor"));
+*			System.out.println("valores: " + valor11 + valor22 + valor33);
+*		}
+*/		 
+
+		
+		
+	}
+
+}

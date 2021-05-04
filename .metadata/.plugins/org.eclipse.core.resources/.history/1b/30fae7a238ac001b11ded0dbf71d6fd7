@@ -1,0 +1,44 @@
+package variaveis;
+/*
+ * Características do Java:
+ * - OO
+ * - médio nível
+ * - arquitetura hibrida
+ */
+public class TiposDados {
+	// main é o método start point de uma app Java
+	public static void main(String[] args) {
+		// <Tipo de dado> <nome/identificador> = <valor>;
+		String nome = "Renato Lima";
+		int idade = 41;
+		double altura = 1.74;
+		System.out.print(nome/n);
+		System.out.print(idade/n);
+		System.out.print(altura);
+		
+		/*
+		 * Tipos de Dados:
+		 * 	Numérico: é o dado que PODE ser utilizado em expressões matemáticas.
+		 * 	
+		 * - int     => somente numeros inteiros
+		 * - Double  => para números com casas decimais (números reais)
+		 * 
+		 * 	Alfanumérico: é o dado que não esta envolvido em operações matemáticas.
+		 * 
+		 */
+
+
+
+	} // fechando o método
+
+} // fechando a classe
+
+
+/*
+ * 
+ * ctrl + i = indentação
+ * ctrl + s = salva apenas classe atual
+ * ctrl + shift + s = Salva tudo
+ * botão direito > Refactor > Rename = alterar nome dos componentes
+ * 
+ */

@@ -9,7 +9,7 @@ public class Exercicio3_professor {
 		int valor2 = Integer.parseInt(JOptionPane.showInputDialog("2º Valor"));
 		int valor3 = Integer.parseInt(JOptionPane.showInputDialog("3º Valor"));
 		if (valor1 == valor2 || valor1 == valor3 || valor2 == valor3) {
-			System.out.println("valores iguais, por favor digite valores diferentes");
+			System.out.println("existe valores iguais, por favor digite valores diferentes");
 		}else {
 			if (valor1 > valor2 && valor1 > valor3) {
 				System.out.println(valor1);

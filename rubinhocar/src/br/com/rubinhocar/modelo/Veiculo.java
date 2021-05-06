@@ -5,7 +5,7 @@ public class Veiculo {
 	private float valor;
 	private String modelo;
 	private String montadora;
-	
+
 	public float retornarValor() {
 		return valor;
 	}	
@@ -16,15 +16,19 @@ public class Veiculo {
 		return montadora;
 	}
 	public String retornarTudo() {
-		return "Modelo: " + modelo + "\nMontadora: " + montadora + "\nValor: " + valor;
+		return "Modelo    : " + modelo + "\n" + 
+			   "Montadora : " + montadora + "\n" + 
+			   "Valor     : " + valor;
 	}
-	public double retornarDesconto() {
-		return (valor * 0.90);
+	public float retornarDesconto() {
+		return valor * (float)0.90;
 	}
 	// <modificador> <tipo do retorno> <nome do metodo> (<tipo do param> <nome do param>){
-	
+
 	public void preencherValor(float param) {
-		valor = param;
+		if ( param > 0 ) {
+			valor = param;
+		}
 	}
 	public void preencherModelo(String param) {
 		if (param.length() <= 40) {

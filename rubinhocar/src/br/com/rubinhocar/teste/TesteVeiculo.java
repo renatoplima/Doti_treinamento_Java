@@ -17,13 +17,20 @@ public class TesteVeiculo {
 		Veiculo objeto = new Veiculo();
 		
 		// 2º Preencher os dados
-		//objeto.preencherModelo(JOptionPane.showInputDialog("Modelo"));
+		objeto.preencherModelo(JOptionPane.showInputDialog("Modelo"));
+		objeto.preencherMontadora(JOptionPane.showInputDialog("Montadora"));
+		objeto.preencherValor(Float.parseFloat(JOptionPane.showInputDialog("Valor")));
 		
 		// 3º Exibir os dados
-		//System.out.println(objeto.retornarModelo());
+		System.out.println("Modelo      :" + objeto.retornarModelo());
+		System.out.println("Montadora   :" + objeto.retornarMontadora());
+		System.out.println("Valor       :" + objeto.retornarValor());
+		System.out.println("C/ Desconto :" + objeto.retornarDesconto());
 		
-		objeto.preencherTudo(Float.parseFloat(JOptionPane.showInputDialog("Valor")), JOptionPane.showInputDialog("Modelo"), JOptionPane.showInputDialog("Montadora"));
-		System.out.println(objeto.retornarTudo());
+		Veiculo objeto2 = new Veiculo();
+		objeto2.preencherTudo(Float.parseFloat(JOptionPane.showInputDialog("Valor")), JOptionPane.showInputDialog("Modelo"), JOptionPane.showInputDialog("Montadora"));
+		System.out.println(objeto2.retornarTudo());
+		System.out.println("Desconto  : " + objeto2.retornarDesconto());
 	}
 
 }

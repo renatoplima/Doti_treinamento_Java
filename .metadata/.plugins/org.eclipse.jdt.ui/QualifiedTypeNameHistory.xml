@@ -4,5 +4,10 @@
 <fullyQualifiedTypeName name="br.com.caicai.modelo.Elevador"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="br.com.unixyz.modelo.Endereco"/>
+<fullyQualifiedTypeName name="br.com.lojagama.modelo.Venda"/>
+<fullyQualifiedTypeName name="br.com.lojagama.modelo.Cliente"/>
+<fullyQualifiedTypeName name="br.com.lojagama.modelo.Endereco"/>
+<fullyQualifiedTypeName name="br.com.lojagama.modelo.Produto"/>
+<fullyQualifiedTypeName name="br.com.lojagama.modelo.Pagamento"/>
 <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

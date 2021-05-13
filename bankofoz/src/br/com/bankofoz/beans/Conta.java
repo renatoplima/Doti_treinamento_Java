@@ -1,5 +1,11 @@
 package br.com.bankofoz.beans;
 
+/*
+ * Polimorfismo: Quando um elemento age de multiplas formas.
+ * Pode ocorrer com:
+ * Objeto => em uma herança, onde você cria pelo pai e instancia pelo filho. 
+ */
+
 public class Conta {
 	
 	private int numero;

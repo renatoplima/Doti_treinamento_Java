@@ -1,6 +1,8 @@
 package br.com.bankofoz.beans;
 
-public class Cliente {
+import br.com.bankofoz.util.OperacoesBasicas;
+
+public class Cliente implements OperacoesBasicas{
 	
 	private String nome = new String();
 	private String email = new String();
@@ -58,9 +60,24 @@ public class Cliente {
 	public void setId(int id) {
 		this.id = id;
 	}
-	
-	
 
+	@Override
+	public boolean add() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public void excluir(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public String getResumo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 
 }

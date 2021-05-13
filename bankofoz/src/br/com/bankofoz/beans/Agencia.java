@@ -1,6 +1,8 @@
 package br.com.bankofoz.beans;
 
-public class Agencia {
+import br.com.bankofoz.util.OperacoesBasicas;
+
+public class Agencia implements OperacoesBasicas{
 	
 	private String nome = new String();
 	private int numero;
@@ -38,7 +40,20 @@ public class Agencia {
 	public void setFone(String fone) {
 		this.fone = fone;
 	}
+	@Override
+	public boolean add() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	@Override
+	public void excluir(int id) {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public String getResumo() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
-	
-
 }

@@ -8,7 +8,7 @@ import br.com.lojagama.beans.Pagamento;
 import br.com.lojagama.beans.Produto;
 import br.com.lojagama.beans.Venda;
 
-public class ImplementaVenda3 {
+public class ImplementarVenda3 {
 	
 	public static int i(String msg) {
 		return Integer.parseInt(JOptionPane.showInputDialog(msg));

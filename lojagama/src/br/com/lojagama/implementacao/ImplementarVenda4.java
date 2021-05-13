@@ -8,7 +8,7 @@ import br.com.lojagama.beans.Venda;
 import br.com.lojagama.util.Magic;
 
 
-public class ImplementaVenda4 {
+public class ImplementarVenda4 {
 	
 	public static void main(String[] args) {
 		

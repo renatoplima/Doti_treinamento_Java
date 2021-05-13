@@ -8,7 +8,7 @@ import br.com.lojagama.beans.Pagamento;
 import br.com.lojagama.beans.Produto;
 import br.com.lojagama.beans.Venda;
 
-public class ImplementaVenda2 {
+public class ImplementarVenda2 {
 	
 	public static void main(String[] args) {
 		

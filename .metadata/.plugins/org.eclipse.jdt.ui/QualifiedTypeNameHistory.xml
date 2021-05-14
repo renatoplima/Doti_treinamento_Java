@@ -9,10 +9,11 @@
 <fullyQualifiedTypeName name="br.com.lojagama.modelo.Endereco"/>
 <fullyQualifiedTypeName name="br.com.lojagama.modelo.Produto"/>
 <fullyQualifiedTypeName name="br.com.lojagama.modelo.Pagamento"/>
-<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 <fullyQualifiedTypeName name="br.com.lojagama.util.Magic"/>
 <fullyQualifiedTypeName name="br.com.bankofoz.beans.Endereco"/>
 <fullyQualifiedTypeName name="br.com.bankofoz.beans.Corrente"/>
 <fullyQualifiedTypeName name="br.com.bankofoz.beans.Poupanca"/>
 <fullyQualifiedTypeName name="br.com.bankofoz.beans.Conta"/>
+<fullyQualifiedTypeName name="br.com.excecao.excecoes.MinhaExcecao"/>
+<fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
 </qualifiedTypeNameHistroy>

@@ -1,4 +1,4 @@
-package br.com.bankofoz.principal;
+package br.com.bankofoz.implementacao;
 
 import br.com.bankofoz.beans.Agencia;
 import br.com.bankofoz.beans.Cliente;
